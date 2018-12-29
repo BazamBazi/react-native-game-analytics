@@ -1,0 +1,49 @@
+{
+    "name": "react-native-game-analytics",
+    "author": "BazamBazi",
+    "version": "1.0.0",
+    "description": "React-Native SDK for GameAnalytics. GameAnalytics is a free analytics platform that helps game developers understand their players' behaviour by delivering relevant insights.",
+    "keywords": [
+        "GameAnalytics",
+        "JavaScript"
+    ],
+    "scripts": {
+        "test": "gulp test"
+    },
+    "main": "app/dist/GameAnalytics.node.js",
+    "typings": "app/dist/GameAnalytics.d.ts",
+    "contributors": [
+        {
+            "name": "Pooria Barghi",
+            "email": "pooria.barghi@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BazamBazi/react-native-game-analytics"
+    },
+    "homepage": "http://www.gameanalytics.com/",
+    "peerDependencies": {
+        "react-native-device-info": "^0.24.3",
+        "react-native": "*"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-concat": "^2.6.1",
+        "gulp-if": "^2.0.2",
+        "gulp-insert": "^0.5.0",
+        "gulp-replace": "^0.5.4",
+        "gulp-sourcemaps": "^1.9.1",
+        "gulp-typescript": "^3.1.3",
+        "gulp-uglify": "^2.0.0",
+        "jasmine": "^2.5.2",
+        "karma": "^1.3.0",
+        "karma-jasmine": "^2.5.2 || 1.x",
+        "karma-phantomjs-launcher": "^1.0.2",
+        "lodash": "^4.17.11",
+        "minimatch": "^3.0.4",
+        "typescript": "^2.1.4",
+        "yargs": "^7.0.2"
+    }
+}
